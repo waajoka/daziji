@@ -1,9 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Memo Rite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Memo Rite · 你的数字打字机</title>
+    <meta name="title" content="Memo Rite · 你的数字打字机">
+    <meta name="description" content="凡是过去，皆为序章。一个复古未来主义的数字打字机，为你记录稍纵即逝的灵感。">
+
+    <!-- Open Graph / Facebook / WeChat -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://memorite.app/">
+    <meta property="og:title" content="Memo Rite · 你的数字打字机">
+    <meta property="og:description" content="凡是过去，皆为序章。沉浸式打字体验，捕捉灵感的碎片。">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1520451644838-906a72aa7c86?q=80&w=1200&auto=format&fit=crop">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Memo Rite · 你的数字打字机">
+    <meta property="twitter:description" content="凡是过去，皆为序章。沉浸式打字体验，捕捉灵感的碎片。">
+    
+    <!-- Mobile Web App Capable (PWA-like experience) -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#f0f2f5">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,9 +33,10 @@
     <style>
       body {
         font-family: 'Inter', 'Noto Serif SC', sans-serif;
-        background-color: #f0f0f0;
+        background-color: #f0f2f5; /* Matches Tailwind bg */
         overflow: hidden; /* Prevent scrolling to keep the desk feel */
         touch-action: none;
+        -webkit-tap-highlight-color: transparent;
       }
       /* Hide scrollbar for the paper list if needed */
       .no-scrollbar::-webkit-scrollbar {
